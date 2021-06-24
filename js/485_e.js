@@ -13,7 +13,6 @@ var findMaxConsecutiveOnes = function(nums) {
             current = 0;
         }
     }
-    
     max = Math.max(max, current);
     
     return max;
